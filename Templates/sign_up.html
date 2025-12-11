@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/sign_in.css">
+        <link rel="stylesheet" href="/static/payment_style.css">
+        <link rel="stylesheet" href="/static/transaction.css">
+        <link rel="stylesheet" href="/static/header_footer.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SignUp</title>
+    </head>
+
+    <body>
+        <header class="top_header"> 
+            <a class="menu_item brand"><img class="brand_img" src="/assets/writearead_img/WriteARead_white.png"></a>
+        </header>
+
+        <div class="sign_in-container">
+            <div>
+                <img class="image" src="../assets/writearead_img/login.png">
+            </div>
+            <div class="box"></div>
+            <h2>Sign Up</h2>
+            <form id="sign_in-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" minlength="8" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="birth_date">Birth_date:</label>
+                    <input type="date" id="birth_date" name="birth_date" placeholder="dd/mm/yy" required>
+                </div>
+                
+                <div class="pangdrop_down_box">
+                    <select class="pangdrop_down" name="role" id="role">
+                        <option value="reader">Reader</option>
+                        <option value="writer">Writer</option>
+                    </select>
+                </div>
+                <button class="submit_button" onclick="alert_success()" type="submit">Sign Up</button>
+            </form>
+            <label for="username">ต้องการเข้าสู่ระบบโปรด <a href="../Templates/sign_in.html">คลิก</a></label>
+
+        </div>
+
+        <footer class="footer">
+            <div class="footer_item_container">
+                <a class="footer_home_button" href="https://www.readawrite.com/">ReadAWrite</a>
+            </div>
+            <div class="footer_item_container">
+                <a class="footer_menu_text" href="payment.html">Payment</a>
+            </div>
+            <div class="footer_item_container">
+                <a class="footer_menu_text" href="MyPage.html">My Page</a>
+            </div>
+            <div class="footer_item_container">
+                <a class="footer_menu_text" href="search_page.html">search</a>
+            </div>
+            <div class="footer_item_container">
+                <a class="footer_menu_text" href="payment.html">Payment</a>
+            </div>
+            <div class="footer_item_container">
+                <p class="footer_menu_text">© 2024 - 2024 Teletubbies Book Center | All Rights Reserved.</p>
+            </div>
+        </footer>
+    
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="/scripts/sign_up.js"></script>
+    </body>
+</html>
