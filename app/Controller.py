@@ -1,13 +1,13 @@
-from Book import Book 
-from Chapter import Chapter 
-from Comment import Comment 
-from Reader import Reader, Writer 
-from CoinTransaction import CoinTransaction 
-from ChapterTransaction import ChapterTransaction 
-from Promotion import CoinPromotion
-from Payment import OnlineBanking, TrueMoneyWallet, DebitCard
+from app.models.Book import Book 
+from app.models.Chapter import Chapter 
+from app.models.Comment import Comment 
+from app.models.Reader import Reader, Writer 
+from app.models.CoinTransaction import CoinTransaction 
+from app.models.ChapterTransaction import ChapterTransaction 
+from app.models.Promotion import CoinPromotion
+from app.models.Payment import OnlineBanking, TrueMoneyWallet, DebitCard
 from datetime import datetime
-from Report import Report
+from app.models.Report import Report
 
 class Controller:
     def __init__(self):

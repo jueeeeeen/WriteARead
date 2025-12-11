@@ -1,6 +1,6 @@
-from Chapter import Chapter
-from Report import Report #
-from Comment import Comment #
+from app.models.Chapter import Chapter
+from app.models.Report import Report #
+from app.models.Comment import Comment #
 from datetime import datetime, timedelta
 
 class Book:

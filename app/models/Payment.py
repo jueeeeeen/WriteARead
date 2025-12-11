@@ -1,4 +1,4 @@
-import Controller as Controller
+import app.Controller as Controller
 
 class PaymentMethod:
     def __init__(self):

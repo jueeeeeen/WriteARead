@@ -1,10 +1,10 @@
 from datetime import datetime, date, timedelta
 from dateutil import relativedelta
-from Book import Book
-from Chapter import Chapter
-from Coin import SilverCoin, GoldenCoin
-from ChapterTransaction import ChapterTransaction
-from CoinTransaction import CoinTransaction
+from app.models.Book import Book
+from app.models.Chapter import Chapter
+from app.models.Coin import SilverCoin, GoldenCoin
+from app.models.ChapterTransaction import ChapterTransaction
+from app.models.CoinTransaction import CoinTransaction
 
 class Reader:
     def __init__(self,username,password,birth_date):
