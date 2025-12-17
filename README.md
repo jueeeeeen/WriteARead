@@ -23,7 +23,7 @@ A novel-reading website developed based on **ReadAWrite**. The website allows us
    ```bash
    git clone https://github.com/jueeeeeen/WriteARead.git
    ```
-2. Navigate into the frontend folder
+2. Navigate into the folder
     ```bash
    cd WriteARead
    ```
