@@ -1,17 +1,16 @@
-# WriteARead
+# 📖 WriteARead
 A novel-reading website developed based on **ReadAWrite**. The website allows users to read, publish and interact with the novels. This was my first full-stack website project, built as part of the Object-Oriented Programming course.
 
-## Demo
+## 🖼️ Demo
 ![screenshot](./docs/homepage.png)
 ![screenshot](./docs/buychapter.png)
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Python, FastAPI, Uvicorn 
 - **Other:** Jinja2 Templates
 
-
-## Features
+## ✨ Features
 - **Browse novels** – View lists of available novels.
 - **Read chapters** – Simple reading interface.
 - **User accounts** – Register, log in, manage profile.
@@ -19,17 +18,21 @@ A novel-reading website developed based on **ReadAWrite**. The website allows us
 - **Comments & interactions** – Readers can comment on chapters.
 - **Top-up system** – Users can buy coins to read chapter.
 
-## Installation
+## 🔧 Installation
 1. Clone the repository  
    ```bash
    git clone https://github.com/jueeeeeen/WriteARead.git
    ```
-2. Install dependencies
+2. Navigate into the frontend folder
+    ```bash
+   cd WriteARead
+   ```
+3. Install dependencies
     ```bash
    pip install -r requirements.txt
    ```
 
-## How to Run
+## 🚀 How to Run
 1. Start the development server
     ```
     uvicorn app.main:app --reload
